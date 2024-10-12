@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario Jump</title>
+
+     <!-- Fontes -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+     <!-- Estilos -->
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/style.css">
+    
+    
+  
+</head>
+<body>
+
+    <div class="game-board">
+        
+        <img src="./src/images/pipe.png" class="pipe" alt="imagem do cano verde">
+        <img src="./src/images/clouds.png" class="clouds" alt="nuvens">
+        <img src="./src/images/mario.gif" class="mario" alt="mario">
+        <div id="score-container">
+            <div id="score-record">HI: 0000</div>
+            <div id="score-display">Score: 1000</div>
+            
+        <button id="reset-button" class="hidden" img src="src/images/recarregar.png"><img src="./src/images/recarregar.png" alt="">
+
+    </div>
+     
+    <audio id="theme-sound" src="src/audios/sound_tema.3.mp3" loop></audio>
+
+    <script src="./src/scripts/Engine.js" defer></script>
+    
+</body>
+</html>
